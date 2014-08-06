@@ -57,7 +57,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Matthew Zipkin">
 		<meta name="author" content="Matthew Zipkin">
-		<link rel="icon" href="favicon.ico">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="icon" 
+			  type="image/gif" 
+			  href="i/star.gif">
+		<link rel="apple-touch-icon" 
+			  type="image/gif" 
+			  href="i/star.gif">
 
 		<title>Matthew Zipkin</title>
 
@@ -72,7 +78,6 @@
 	</head>
 
 	<body>
-
 		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -82,18 +87,19 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
+					<a class="navbar-brand" href="/"><span class="glyphicon glyphicon-home"></span></a>
 				</div>
 				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Audio</a></li>
-						<li><a href="#music">Music</a></li>
-						<li><a href="#web">Web</a></li>
-						<li><a href="#fun">Fun!</a></li>
+					<ul class="MENU nav navbar-nav">
+						<li class="active"><a href="javascript:goto('Audio')">Audio</a></li>
+						<li><a href="javascript:goto('Music')">Music</a></li>
+						<li><a href="javascript:goto('Web')">Web</a></li>
+						<li><a href="javascript:goto('Fun')">Fun!</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
 		</div>
+		<a name="top"></a> 
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
 		<div class="jumbotron">
@@ -117,17 +123,18 @@
 		</div>
 
 		<div class="container" id="blogContainer">
-			<!-- Example row of columns -->
-			<div class="row">
+
+			<div id="Audio" class="row activePage">
 				<h2 style="color:white">Latest audio work:</h2>
 
-				<div class="col-md-2">
+				<div id="blogMenu" class="col-md-2">
 					<span style="color:white">Filter by category:</span><br>
 					<div class="btn-group-vertical">
 						<button type="button" class="btn btn-default" onclick="loadLabel('ALL')">ALL</button>
 						<button type="button" class="btn btn-default" onclick="loadLabel('Advertising')">Advertising</button>
-						<button type="button" class="btn btn-default" onclick="loadLabel('Film')">Film</button>
+						<button type="button" class="btn btn-default" onclick="loadLabel('Film')">Film & TV</button>
 						<button type="button" class="btn btn-default" onclick="loadLabel('Music')">Music</button>
+						<button type="button" class="btn btn-default" onclick="loadLabel('Sound Design')">Sound Design</button>
 						<button type="button" class="btn btn-default" onclick="loadLabel('5.1 Surround')">5.1 Surround</button>
 					</div>
 				</div>
@@ -137,12 +144,214 @@
 						<? printBlog($f, $l); ?>
 					</div>
 					<button type="button" id="loadMoreButton" class="btn btn-primary" onclick="loadMore()">Load more...</button>
+					<a href="#top"><button type="button" id="backToTop" class="btn btn-default" >Back to top</button></a>
 				</div>
 				
 				<div class="col-md-2">
 				</div>
 				
-			</div>
+			</div> <!-- /Audio -->
+
+			<div id="Music" class="inactivePage">
+				<h2 style="color:white">Original Music Projects:</h2>
+				<div class="row">
+					<div class="musicItem col-md-8 blogItem">
+						<h3>The New Time</h3>
+						<i>Downtempo House / Balearic / Chillout / Trip-Hop / Electronic</i><br>
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/64015187&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					</div>
+					<div class="musicItem col-md-8 blogItem">
+						<h3>The Illness</h3>
+						<i>Progressive Rock / Alternative Metal</i><br>
+						<a href="http://SpreadTheIllness.net" target="_blank">http://SpreadTheIllness.net</a><br>
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/444257&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					</div>
+					<div class="musicItem col-md-8 blogItem">
+						<h3>Melting Butterflies</h3>
+						<i>Ambient / Downtempo / IDM / Acid Jazz / Electronic</i><br>
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/8733123&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					</div>
+					<div class="musicItem col-md-8 blogItem">
+						<h3>The Space Traveling Nostril Hairs</h3>
+						<i>Electro Dub Funk</i><br>
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/8010680&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					</div>
+					<div class="musicItem col-md-8 blogItem">
+						<h3>The Bad Hand</h3>
+						<i>Experimental Rock / Psychedelic </i><br>
+						<a href="https://itunes.apple.com/us/artist/the-bad-hand/id202719042" target="_blank">View In iTunes</a>
+					</div>
+					<div class="musicItem col-md-8 blogItem">
+						<h3>Precise Device</h3>
+						<i>Funk Jam / Hip-Hop / Rock / Jazz</i><br>
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/8011012&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					</div>
+				</div> <!-- /row -->
+				<div class="row"><a href="#top"><button type="button" id="backToTop" class="btn btn-default" >Back to top</button></a></div>
+			</div> <!-- /Music -->
+
+			
+			<div id="Web" class="inactivePage">
+				<h2 style="color:white">Latest Web Projects:</h2>
+
+				<div class="row">					
+					<div class="webItem col-md-3 blogItem">
+						<h3>The X Kids</h3>
+						<a href="http://TheXKids.org" target="_blank">http://TheXKids.org</a><br>
+						<ul>
+							<li>Over 300 users in first year</li>
+							<li>Registration and Scheduling</li>
+							<li>Paypal and Coinbase(Bitcoin) API integration</li>
+							<li>Complete "Admin" backend with database control</li>
+							<li>Responsive CSS template / JavaScript/ PHP</li>
+						</ul>
+						<img src="i/web/xkids.png">
+					</div>
+					
+					<div class="webItem col-md-3 blogItem">
+						<h3>FunZap!</h3>
+						<a href="http://MatthewZipkin.com/funzap" target="_blank">http://MatthewZipkin.com/funzap</a><br>
+						<ul>
+							<li>Customizable social game</li>
+							<li>Image upload and manipulation with PHP</li>
+							<li>Create puzzles and send them to friends</li>
+							<li>Javascript puzzle game</li>
+						</ul>
+						<img src="i/web/funzap.png">
+					</div>
+					
+					<div class="webItem col-md-3 blogItem">
+						<h3>Chess</h3>
+						<a href="http://thexkids.org/games/chess/chess.html" target="_blank">http://thexkids.org/games/chess/chess.html</a><br>
+						<ul>
+							<li>Javascript Chess game</li>
+							<li>Computer player with strategy</li>
+							<li>Designed to be educational</li>
+							<li>Formatted for iPad</li>
+						</ul>
+						<img src="i/web/chess.png">
+					</div>
+				</div> <!-- /row -->
+				
+				<div class="row">					
+					<div class="webItem col-md-3 blogItem">
+						<h3>Times-Tables Racing</h3>
+						<a href="http://thexkids.org/games/racing/racing.html" target="_blank">http://thexkids.org/games/racing/racing.html</a><br>
+						<ul>
+							<li>Animated Javascript video game</li>
+							<li>Control with mouse, keyboard or tilting iPad</li>
+							<li>Fun and educational!</li>
+						</ul>
+						<img src="i/web/racing.png">
+					</div>
+					
+					<div class="webItem col-md-3 blogItem">
+						<h3>Cherushii</h3>
+						<a href="http://Cherushii.com" target="_blank">http://Cherushii.com</a><br>
+						<ul>
+							<li>Music producer homepage</li>
+							<li>PHP integrated backend</li>
+						</ul>
+						<img src="i/web/cherushii.png">
+					</div>
+					
+					<div class="webItem col-md-3 blogItem">
+						<h3>The Illness</h3>
+						<a href="http://SpreadTheIllness.net" target="_blank">http://SpreadTheIllness.net</a><br>
+						<ul>
+							<li>Rock Band Homepage</li>
+						</ul>
+						<img src="i/web/ill.png">
+					</div>
+				</div> <!-- /row -->
+				
+				<div class="row">
+					<div class="webItem col-md-3 blogItem">
+						<h3>CounterCode.club</h3>
+						<a href="http://CounterCode.club" target="_blank">http://CounterCode.club</a><br>
+						<ul>
+							<li>Watch-only wallet for <a href="http://counterparty.co" target="_blank">Counterparty</a> cryptocurrency</li>
+							<li>Javascript, Bitcore, PHP server storage backend</li>
+							<li>Deterministically build public addresses from master public key</li>
+							<li>Responsive Bootstrap template</li>
+						</ul>
+						<img src="i/web/counter.png">
+					</div>
+					
+					<div class="webItem col-md-3 blogItem">
+						<h3>Say Bitcoin</h3>
+						<a href="http://SayBitcoin.com" target="_blank">http://SayBitcoin.com</a><br>
+						<ul>
+							<li>Convert any Bitcoin base58 string into word-poem mnemonic</li>
+						</ul>
+						<img src="i/web/saybtc.png">
+					</div>
+				
+					<div class="webItem col-md-3 blogItem">
+						<h3>Matthew Zipkin</h3>
+						<a href="http://MatthewZipkin.com" target="_blank">http://MatthewZipkin.com</a><br>
+						<ul>
+							<li>Personal Website</li>
+							<li>PHP building blog from RSS feed</li>
+							<li>Responsive Bootstrap template</li>
+							<li>Endless recursion!</li>
+						</ul>
+						<img src="i/web/mz.png">
+					</div>
+				
+				</div> <!-- /row -->
+				<div class="row"><a href="#top"><button type="button" id="backToTop" class="btn btn-default" >Back to top</button></a></div>
+			</div> <!-- /Web -->
+
+			<div id="Fun" class="inactivePage">
+				<h3 style="color:white">
+						I make fun, noisy toys! They are analog electronic synthesizers built from those parts they sell in the very back of Radio Shack. 
+						I'm inspired by the DIY electronics community and I love making insane little gadgets.
+				</h3>
+				<a href="http://www.milothemadscientist.blogspot.com/" target="_blank"><h3>Milo The Mad Scientist blog</h3></a><br>
+				<div class="row">
+					
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2011/09/9-volt-tesseract.html" target="_blank"><img src="i/toys/toy1.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2009/05/time-bomb.html" target="_blank"><img src="i/toys/toy2.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2009/02/penguin.html" target="_blank"><img src="i/toys/toy3.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2008/11/funx-capacitor.html" target="_blank"><img src="i/toys/toy4.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2012/06/idiot-box.html" target="_blank"><img src="i/toys/toy5.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2011/09/9-volt-tesseract.html" target="_blank"><img src="i/toys/toy6.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2011/09/zippy-stardust-radar-laserbeam-goggles.html" target="_blank"><img src="i/toys/toy7.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2008/11/shadow-jar.html" target="_blank"><img src="i/toys/toy8.jpg" ></a>
+				
+					</div>
+					<div class="funItem blogItem">
+										<a href="http://www.milothemadscientist.blogspot.com/2008/12/casio-quellotone.html" target="_blank"><img src="i/toys/toy9.jpg" ></a>
+				
+					</div>
+				</div>
+				<div class="row"><a href="#top"><button type="button" id="backToTop" class="btn btn-default" >Back to top</button></a></div>
+			</div> <!-- /Fun -->
+			
+		</div> <!-- /Container -->
 
 			<hr>
 
@@ -160,6 +369,12 @@
 		<script>
 			var last = <?= $l ?>;
 			var label = <?= ($label ? $label : "''") ?>;
+			
+			$('.MENU li').click(function(){
+				$('.active').removeClass('active');
+				$(this).addClass('active');
+			});
+			
 			function loadMore(){
 				$('button').attr('disabled', 'disabled');
 				$.post("index.php", {f: last, l: last + <?= $inc ?>, label: label}).done( function(data){
@@ -182,6 +397,23 @@
 					last = 8;	
 				}
 			}
+			
+			function goto(page){
+				$('.activePage').slideUp().removeClass('activePage');
+				$('#' + page).slideDown().addClass('activePage');
+			}
+		</script>
+		<script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-28095888-1']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
 		</script>
 	</body>
 </html>

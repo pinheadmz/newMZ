@@ -6285,3 +6285,29 @@ footer{
 .blogItem img{
 	max-width:90%;
 }
+
+.funItem{
+	text-align: center;
+	width: 200px;
+	height: 140px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.webItem img{
+	margin: auto;
+	display: block;
+	border: 1px solid grey;
+}	
+
+#Fun h3{
+	margin: 20px;
+}
+
+.inactivePage{
+	display: none;
+}
+
+.activePage{
+	display: block;
+}
