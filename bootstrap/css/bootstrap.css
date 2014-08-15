@@ -6211,7 +6211,7 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 
 body{
-	background-color: #D8AEE7;
+	background-color: black;
 	background-image: url('../../i/bg.jpg');
 }
 
@@ -6298,7 +6298,12 @@ footer{
 	margin: auto;
 	display: block;
 	border: 1px solid grey;
-}	
+}
+
+.webItem span {
+	text-align: center;
+	display: block;
+}
 
 #Fun h3{
 	margin: 20px;

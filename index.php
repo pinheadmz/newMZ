@@ -197,106 +197,97 @@
 				<div class="row">					
 					<div class="webItem col-md-3 blogItem">
 						<h3>The X Kids</h3>
-						<a href="http://TheXKids.org" target="_blank">http://TheXKids.org</a><br>
 						<ul>
 							<li>Over 300 users in first year</li>
 							<li>Registration and Scheduling</li>
-							<li>Paypal and Coinbase(Bitcoin) API integration</li>
+							<li>Paypal and Coinbase (Bitcoin) API integration</li>
 							<li>Complete "Admin" backend with database control</li>
 							<li>Responsive CSS template / JavaScript/ PHP</li>
 						</ul>
-						<img src="i/web/xkids.png">
+						<a href="http://TheXKids.org" target="_blank"><img src="i/web/xkids.png"><br><span>http://TheXKids.org</span></a>
 					</div>
 					
 					<div class="webItem col-md-3 blogItem">
 						<h3>FunZap!</h3>
-						<a href="http://MatthewZipkin.com/funzap" target="_blank">http://MatthewZipkin.com/funzap</a><br>
 						<ul>
 							<li>Customizable social game</li>
 							<li>Image upload and manipulation with PHP</li>
 							<li>Create puzzles and send them to friends</li>
 							<li>Javascript puzzle game</li>
 						</ul>
-						<img src="i/web/funzap.png">
+						<a href="http://MatthewZipkin.com/funzap" target="_blank"><img src="i/web/funzap.png"><br><span>http://MatthewZipkin.com/funzap</span></a>
 					</div>
 					
 					<div class="webItem col-md-3 blogItem">
 						<h3>Chess</h3>
-						<a href="http://thexkids.org/games/chess/chess.html" target="_blank">http://thexkids.org/games/chess/chess.html</a><br>
 						<ul>
 							<li>Javascript Chess game</li>
 							<li>Computer player with strategy</li>
 							<li>Designed to be educational</li>
 							<li>Formatted for iPad</li>
 						</ul>
-						<img src="i/web/chess.png">
+						<a href="http://thexkids.org/games/chess/chess.html" target="_blank"><img src="i/web/chess.png"><br><span>http://thexkids.org/games/chess/chess.html</span></a>
 					</div>
 				</div> <!-- /row -->
 				
 				<div class="row">					
 					<div class="webItem col-md-3 blogItem">
 						<h3>Times-Tables Racing</h3>
-						<a href="http://thexkids.org/games/racing/racing.html" target="_blank">http://thexkids.org/games/racing/racing.html</a><br>
 						<ul>
 							<li>Animated Javascript video game</li>
 							<li>Control with mouse, keyboard or tilting iPad</li>
 							<li>Fun and educational!</li>
 						</ul>
-						<img src="i/web/racing.png">
+						<a href="http://thexkids.org/games/racing/racing.html" target="_blank"><img src="i/web/racing.png"><br><span>http://thexkids.org/games/racing/racing.html</span></a>
 					</div>
 					
 					<div class="webItem col-md-3 blogItem">
 						<h3>Cherushii</h3>
-						<a href="http://Cherushii.com" target="_blank">http://Cherushii.com</a><br>
 						<ul>
 							<li>Music producer homepage</li>
 							<li>PHP integrated backend</li>
 						</ul>
-						<img src="i/web/cherushii.png">
+						<a href="http://Cherushii.com" target="_blank"><img src="i/web/cherushii.png"><br><span>http://Cherushii.com</span></a>
 					</div>
 					
 					<div class="webItem col-md-3 blogItem">
 						<h3>The Illness</h3>
-						<a href="http://SpreadTheIllness.net" target="_blank">http://SpreadTheIllness.net</a><br>
 						<ul>
 							<li>Rock Band Homepage</li>
 						</ul>
-						<img src="i/web/ill.png">
+						<a href="http://SpreadTheIllness.net" target="_blank"><img src="i/web/ill.png"><br><span>http://SpreadTheIllness.net</span></a>
 					</div>
 				</div> <!-- /row -->
 				
 				<div class="row">
 					<div class="webItem col-md-3 blogItem">
 						<h3>CounterCode.club</h3>
-						<a href="http://CounterCode.club" target="_blank">http://CounterCode.club</a><br>
 						<ul>
 							<li>Watch-only wallet for <a href="http://counterparty.co" target="_blank">Counterparty</a> cryptocurrency</li>
 							<li>Javascript, Bitcore, PHP server storage backend</li>
 							<li>Deterministically build public addresses from master public key</li>
 							<li>Responsive Bootstrap template</li>
 						</ul>
-						<img src="i/web/counter.png">
+						<a href="http://CounterCode.club" target="_blank"><img src="i/web/counter.png"><br><span>http://CounterCode.club</span></a>
 					</div>
 					
 					<div class="webItem col-md-3 blogItem">
 						<h3>Say Bitcoin</h3>
-						<a href="http://SayBitcoin.com" target="_blank">http://SayBitcoin.com</a><br>
+						
 						<ul>
 							<li>Convert any Bitcoin base58 string into word-poem mnemonic</li>
 						</ul>
-						<img src="i/web/saybtc.png">
+						<a href="http://SayBitcoin.com" target="_blank"><img src="i/web/saybtc.png"><br><span>http://SayBitcoin.com</span></a>
 					</div>
-				
 					<div class="webItem col-md-3 blogItem">
 						<h3>Matthew Zipkin</h3>
-						<a href="http://MatthewZipkin.com" target="_blank">http://MatthewZipkin.com</a><br>
 						<ul>
 							<li>Personal Website</li>
 							<li>PHP building blog from RSS feed</li>
 							<li>Responsive Bootstrap template</li>
 							<li>Endless recursion!</li>
 						</ul>
-						<img src="i/web/mz.png">
+						<a href="http://MatthewZipkin.com" target="_blank"><img src="i/web/mz.png"><br><span>http://MatthewZipkin.com</span></a>
 					</div>
 				
 				</div> <!-- /row -->
@@ -312,40 +303,31 @@
 				<div class="row">
 					
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2011/09/9-volt-tesseract.html" target="_blank"><img src="i/toys/toy1.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2011/09/9-volt-tesseract.html" target="_blank"><img src="i/toys/toy1.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2009/05/time-bomb.html" target="_blank"><img src="i/toys/toy2.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2009/05/time-bomb.html" target="_blank"><img src="i/toys/toy2.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2009/02/penguin.html" target="_blank"><img src="i/toys/toy3.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2009/02/penguin.html" target="_blank"><img src="i/toys/toy3.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2008/11/funx-capacitor.html" target="_blank"><img src="i/toys/toy4.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2008/11/funx-capacitor.html" target="_blank"><img src="i/toys/toy4.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2012/06/idiot-box.html" target="_blank"><img src="i/toys/toy5.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2012/06/idiot-box.html" target="_blank"><img src="i/toys/toy5.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2011/09/9-volt-tesseract.html" target="_blank"><img src="i/toys/toy6.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2011/09/9-volt-tesseract.html" target="_blank"><img src="i/toys/toy6.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2011/09/zippy-stardust-radar-laserbeam-goggles.html" target="_blank"><img src="i/toys/toy7.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2011/09/zippy-stardust-radar-laserbeam-goggles.html" target="_blank"><img src="i/toys/toy7.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2008/11/shadow-jar.html" target="_blank"><img src="i/toys/toy8.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2008/11/shadow-jar.html" target="_blank"><img src="i/toys/toy8.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-										<a href="http://www.milothemadscientist.blogspot.com/2008/12/casio-quellotone.html" target="_blank"><img src="i/toys/toy9.jpg" ></a>
-				
+						<a href="http://www.milothemadscientist.blogspot.com/2008/12/casio-quellotone.html" target="_blank"><img src="i/toys/toy9.jpg" ></a>
 					</div>
 				</div>
 				<div class="row"><a href="#top"><button type="button" id="backToTop" class="btn btn-default" >Back to top</button></a></div>
