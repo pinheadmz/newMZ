@@ -309,7 +309,7 @@
 						<a href="http://www.milothemadscientist.blogspot.com/2009/05/time-bomb.html" target="_blank"><img src="i/toys/toy2.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
-						<a href="http://www.milothemadscientist.blogspot.com/2009/02/penguin.html" target="_blank"><img src="i/toys/toy3.jpg" ></a>
+						<a href="http://www.milothemadscientist.blogspot.com/2009/02/the-penguin.html" target="_blank"><img src="i/toys/toy3.jpg" ></a>
 					</div>
 					<div class="funItem blogItem">
 						<a href="http://www.milothemadscientist.blogspot.com/2008/11/funx-capacitor.html" target="_blank"><img src="i/toys/toy4.jpg" ></a>
