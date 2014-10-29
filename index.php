@@ -129,13 +129,14 @@
 
 				<div id="blogMenu" class="col-md-2">
 					<span style="color:white">Filter by category:</span><br>
-					<div class="btn-group-vertical">
-						<button type="button" class="btn btn-default" onclick="loadLabel('ALL')">ALL</button>
-						<button type="button" class="btn btn-default" onclick="loadLabel('Advertising')">Advertising</button>
-						<button type="button" class="btn btn-default" onclick="loadLabel('Film')">Film & TV</button>
-						<button type="button" class="btn btn-default" onclick="loadLabel('Music')">Music</button>
-						<button type="button" class="btn btn-default" onclick="loadLabel('Sound Design')">Sound Design</button>
-						<button type="button" class="btn btn-default" onclick="loadLabel('5.1 Surround')">5.1 Surround</button>
+					<div class="btn-group-vertical" style="width:150px">
+						<button type="button" class="btn btn-default filter" onclick="loadLabel('ALL')" style="color:blue">→&nbsp;ALL&nbsp;←</button>
+						<button type="button" class="btn btn-default filter" onclick="loadLabel('Best')">THE BEST</button>
+						<button type="button" class="btn btn-default filter" onclick="loadLabel('Advertising')">Advertising</button>
+						<button type="button" class="btn btn-default filter" onclick="loadLabel('Film')">Film & TV</button>
+						<button type="button" class="btn btn-default filter" onclick="loadLabel('Music')">Music</button>
+						<button type="button" class="btn btn-default filter" onclick="loadLabel('Sound Design')">Sound Design</button>
+						<button type="button" class="btn btn-default filter" onclick="loadLabel('5.1 Surround')">5.1 Surround</button>
 					</div>
 				</div>
 
@@ -355,6 +356,20 @@
 			$('.MENU li').click(function(){
 				$('.active').removeClass('active');
 				$(this).addClass('active');
+			});
+			
+			$('.filter').click(function(){
+				$('.filter').css('color','black');
+				$('.filter').each( function(i, v){
+					var old = $(this).html();
+					console.log(old);
+					old = old.replace('→&nbsp;', '');
+					old = old.replace('&nbsp;←', '');
+					$(this).html(old);
+				});
+			
+				$(this).html( '&#8594;&nbsp;' + $(this).html() + '&nbsp;&#8592;');
+				$(this).css('color', 'blue');
 			});
 			
 			function loadMore(){
