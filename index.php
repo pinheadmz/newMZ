@@ -280,6 +280,7 @@
 						</ul>
 						<a href="http://SayBitcoin.com" target="_blank"><img src="i/web/saybtc.png"><br><span>http://SayBitcoin.com</span></a>
 					</div>
+					
 					<div class="webItem col-md-3 blogItem">
 						<h3>Matthew Zipkin</h3>
 						<ul>
@@ -290,8 +291,24 @@
 						</ul>
 						<a href="http://MatthewZipkin.com" target="_blank"><img src="i/web/mz.png"><br><span>http://MatthewZipkin.com</span></a>
 					</div>
-				
+					
 				</div> <!-- /row -->
+				
+				<div class="row">
+					<div class="webItem col-md-3 blogItem">
+						<h3>Vote For Zipkin</h3>
+						<ul>
+							<li>Simple one-page view for political promotion</li>
+							<li>Custom PHP backend for admin editing</li>
+							<li>Accept Paypal and Bitcoin donations</li>
+						</ul>
+						<a href="http://VoteForZipkin.com" target="_blank"><img src="i/web/chuck.png"><br><span>http://VoteForZipkin.com</span></a>
+					</div>
+					
+					
+				</div> <!-- /row -->
+				
+				
 				<div class="row"><a href="#top"><button type="button" id="backToTop" class="btn btn-default" >Back to top</button></a></div>
 			</div> <!-- /Web -->
 
