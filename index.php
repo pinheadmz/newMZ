@@ -24,7 +24,7 @@
 				break;
 			?>
 				<div class="blogItem">
-					<h3><?= htmlspecialchars($item->title) ?></h3>
+					<h3><a href="<?= $item->link ?>" target="_blank"><?= htmlspecialchars($item->title) ?></a></h3>
 					<span style="float:left;font-style:italic;font-size:12px"><?= substr(htmlspecialchars($item->pubDate), 0, -15) ?></span><br>
 					<p><?= $item->description; ?><p>						
 				</div>
