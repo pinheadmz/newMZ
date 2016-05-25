@@ -50,6 +50,11 @@
 ?>	
 
 <!DOCTYPE html>
+<script type="text/javascript">
+var target = window.location.hash;
+target = target.replace('#', '');
+window.location.hash = "";
+</script>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -419,9 +424,8 @@
 			}
 			
 			$(document).ready(function(){
-				var type = window.location.hash.substr(1);
-				if (type)
-					goto(type);
+				if (target)
+					goto(target);
 			});
 		</script>
 		<script type="text/javascript">
