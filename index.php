@@ -419,7 +419,8 @@
 			
 			$(document).ready(function(){
 				var type = window.location.hash.substr(1);
-				goto(type);
+				if (!type)
+					goto(type);
 			});
 		</script>
 		<script type="text/javascript">
