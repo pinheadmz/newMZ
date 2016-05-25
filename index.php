@@ -416,6 +416,11 @@
 				$('.activePage').slideUp().removeClass('activePage');
 				$('#' + page).slideDown().addClass('activePage');
 			}
+			
+			$(document).ready(function(){
+				var type = window.location.hash.substr(1);
+				goto(type);
+			});
 		</script>
 		<script type="text/javascript">
 
