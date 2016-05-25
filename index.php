@@ -153,7 +153,7 @@
 				
 			</div> <!-- /Audio -->
 
-			<div id="Music" class="inactivePage">
+			<div id="music" class="inactivePage">
 				<h2 style="color:white">Original Music Projects:</h2>
 				<div class="row">
 					<div class="musicItem col-md-8 blogItem">
@@ -192,7 +192,7 @@
 			</div> <!-- /Music -->
 
 			
-			<div id="Web" class="inactivePage">
+			<div id="web" class="inactivePage">
 				<h2 style="color:white">Latest Web Projects:</h2>
 
 				<div class="row">					
@@ -312,7 +312,7 @@
 				<div class="row"><a href="#top"><button type="button" id="backToTop" class="btn btn-default" >Back to top</button></a></div>
 			</div> <!-- /Web -->
 
-			<div id="Fun" class="inactivePage">
+			<div id="fun" class="inactivePage">
 				<h3 style="color:white">
 						I make fun, noisy toys! They are analog electronic synthesizers built from those parts they sell in the very back of Radio Shack. 
 						I'm inspired by the DIY electronics community and I love making insane little gadgets.
@@ -413,6 +413,7 @@
 			}
 			
 			function goto(page){
+				page = page.toLowerCase();
 				$('.activePage').slideUp().removeClass('activePage');
 				$('#' + page).slideDown().addClass('activePage');
 			}
