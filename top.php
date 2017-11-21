@@ -114,7 +114,6 @@
 				<? // <p>Creative technical solutions for talented visionaries.</p> ?>
 				<ul class="jumboLinks">
 					<li><a href="mailto:Matthew.Zipkin@gmail.com"><span class="glyphicon glyphicon-envelope"></span> Matthew.Zipkin@gmail.com</a></li>
-					<li><a href="MatthewZipkin2014.pdf" target="_blank"><span class="glyphicon glyphicon-list-alt"></span> Resume</a></li>
 					<li><a href="http://www.linkedin.com/in/matthewzipkin" target="_blank"><img src="i/logos/linked.png" ></a></li>
 					<li><a href="https://github.com/pinheadmz" target="_blank"><img src="i/logos/github.jpg" ></a></li>
 					<li><a href="http://www.imdb.com/name/nm3116436/" target="_blank"><img src="i/logos/imdb.png" ></a></li>
