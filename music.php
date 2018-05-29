@@ -32,7 +32,7 @@
 					<div class="musicItem col-md-8 blogItem">
 						<h3>The Bad Hand</h3>
 						<i>Experimental Rock / Psychedelic </i><br>
-						<a href="https://itunes.apple.com/us/artist/the-bad-hand/id202719042" target="_blank">View In iTunes</a>
+						<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/261519736&;color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false"></iframe>
 					</div>
 					<div class="musicItem col-md-8 blogItem">
 						<h3>Precise Device</h3>
